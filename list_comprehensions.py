@@ -1,4 +1,8 @@
 import timeit
+<<<<<<< HEAD
+=======
+import dis
+>>>>>>> d29113f (init)
 
 
 def get_even_numbers_less_100():
@@ -15,4 +19,4 @@ def get_even_numbers_less_100_lc():
 
 
 print("List comprehension takes ", timeit.timeit("get_even_numbers_less_100_lc()", "from __main__ import get_even_numbers_less_100_lc"), "seconds.") 
-print("List construction with append and conditionals takes ", timeit.timeit("get_even_numbers_less_100()", "from __main__ import get_even_numbers_less_100"), "seconds.") 
+print("List construction with append and conditionals takes ", timeit.timeit("get_even_numbers_less_100()", "from __main__ import get_even_numbers_less_100"), "seconds.")
